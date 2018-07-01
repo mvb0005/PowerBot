@@ -1,0 +1,102 @@
+[
+  {
+    "state": {
+      "372.1": "Player controls"
+    },
+    "action": {
+      "widget": "548.42"
+    }
+  },
+  {
+    "state": {
+      "421.1": "Player controls"
+    },
+    "action": {
+      "npc": "3308"
+    }
+  },
+  {
+    "state": {
+      "231.2": "Click here to continue"
+    },
+    "action": {
+      "Continue": "Space"
+    }
+  },
+  {
+    "state": {
+      "421.1": "Interacting with scenery"
+    },
+    "action": {
+      "object": {
+        "9398": "Open"
+      }
+    }
+  },
+  {
+    "state": {
+      "372.0": "Moving around"
+    },
+    "action": {
+      "npc": {
+        "3306": "Talk-to"
+      }
+    }
+  },
+  {
+    "state": {
+      "372.0": "Viewing the items that you were given."
+    },
+    "action": {
+      "widget": "548.58"
+    }
+  },
+  {
+    "state": {
+      "372.0": "Cut down a tree"
+    },
+    "action": {
+      "object": {
+        "9730": "Chop down"
+      }
+    }
+  },
+  {
+    "state": {
+      "372.0": "Making a fire"
+    },
+    "action": {
+      "use": {
+        "9730": "Chop down"
+      }
+    }
+  },
+  {
+    "state": {
+      "372.1": "You gained some experience."
+    },
+    "action": {
+      "widget": "548.49"
+    }
+  },
+  {
+    "state": {
+      "421.1": "Interacting with scenery"
+    },
+    "action": {
+      "npc": {
+        "3306": "Talk-to"
+      }
+    }
+  },
+  {
+    "state": {
+      "372.0": "Catch some Shrimp."
+    },
+    "action": {
+      "npc": {
+        "3317": "Net"
+      }
+    }
+  }
+]

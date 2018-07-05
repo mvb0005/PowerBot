@@ -107,6 +107,7 @@ public class questController extends PollingScript<ClientContext> {
                         useIO(state.action[stage]);
                         break;
                     case wait:
+                        Condition.sleep(r.nextInt(5000));
                         break;
                     case walk:
                         walk(state.action[stage]);

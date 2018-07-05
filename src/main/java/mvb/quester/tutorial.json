@@ -968,7 +968,7 @@
     "action": [
       {
         "type": "object",
-        "priority": 0,
+        "priority": 1,
         "id": "9717",
         "text": "Open",
         "bounds": [96, 180, -64, 20, -132, 108]
@@ -1231,6 +1231,10 @@
         "priority": 0,
         "id": "3313",
         "text": "Attack"
+      },
+      {
+        "type": "wait",
+        "priority": -1
       }
     ]
   },

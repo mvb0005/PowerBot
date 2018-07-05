@@ -1,102 +1,1617 @@
 [
   {
-    "state": {
-      "372.1": "Player controls"
-    },
-    "action": {
-      "widget": "548.42"
-    }
-  },
-  {
-    "state": {
-      "421.1": "Player controls"
-    },
-    "action": {
-      "npc": "3308"
-    }
-  },
-  {
-    "state": {
-      "231.2": "Click here to continue"
-    },
-    "action": {
-      "Continue": "Space"
-    }
-  },
-  {
-    "state": {
-      "421.1": "Interacting with scenery"
-    },
-    "action": {
-      "object": {
-        "9398": "Open"
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Getting started"
       }
-    }
-  },
-  {
-    "state": {
-      "372.0": "Moving around"
-    },
-    "action": {
-      "npc": {
-        "3306": "Talk-to"
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 3,
+        "id": "269.23"
+      },
+      {
+        "type": "widget",
+        "priority": 2,
+        "id": "269.24"
+      },
+      {
+        "type": "widget",
+        "priority": 1,
+        "id": "269.100"
+      },
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3308",
+        "text": "Talk-to"
       }
-    }
+    ]
   },
   {
-    "state": {
-      "372.0": "Viewing the items that you were given."
-    },
-    "action": {
-      "widget": "548.58"
-    }
-  },
-  {
-    "state": {
-      "372.0": "Cut down a tree"
-    },
-    "action": {
-      "object": {
-        "9730": "Chop down"
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.1",
+        "text": "Player controls"
       }
-    }
-  },
-  {
-    "state": {
-      "372.0": "Making a fire"
-    },
-    "action": {
-      "use": {
-        "9730": "Chop down"
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.42"
       }
-    }
+    ]
   },
   {
-    "state": {
-      "372.1": "You gained some experience."
-    },
-    "action": {
-      "widget": "548.49"
-    }
-  },
-  {
-    "state": {
-      "421.1": "Interacting with scenery"
-    },
-    "action": {
-      "npc": {
-        "3306": "Talk-to"
+    "state": [
+      {
+        "type": "widget",
+        "id": "219.0.1",
+        "text": "I am an experienced player."
       }
-    }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "219.0.1"
+      }
+    ]
   },
   {
-    "state": {
-      "372.0": "Catch some Shrimp."
-    },
-    "action": {
-      "npc": {
-        "3317": "Net"
+    "state": [
+      {
+        "type": "widget",
+        "id": "219.0.2",
+        "text": "I am an experienced player."
       }
-    }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "219.0.2"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "219.0.3",
+        "text": "I am an experienced player."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "219.0.3"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "Player controls"
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3308"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "231.2",
+        "text": "Click here to continue"
+      }
+    ],
+    "action": [
+      {
+        "type": "CONTINUE",
+        "priority": 0,
+        "id": "Space"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "217.2",
+        "text": "Click here to continue"
+      }
+    ],
+    "action": [
+      {
+        "type": "CONTINUE",
+        "priority": 0,
+        "id": "Space"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "229.1",
+        "text": "Click here to continue"
+      }
+    ],
+    "action": [
+      {
+        "type": "CONTINUE",
+        "priority": 0,
+        "id": "Space"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "Interacting with scenery"
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9398",
+        "text": "Open"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Moving around"
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3102, 3097, 0]]
+      },
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3306",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Viewing the items that you were given."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.58"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Cut down a tree"
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9730",
+        "text": "Chop down"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Making a fire"
+      }
+    ],
+    "action": [
+      {
+        "type": "useII",
+        "priority": 0,
+        "id": "590",
+        "id2": "2511"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Please wait."
+      }
+    ],
+    "action": [
+      {
+        "type": "wait",
+        "priority": 0,
+        "id": "1000"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.1",
+        "text": "You gained some experience."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.49"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "Interacting with scenery"
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3306",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "Your skill stats."
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3306",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "Cooking dough"
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.37"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "162.36",
+        "text": "Cooking dough"
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 0,
+        "id": "random"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "193.2",
+        "text": "Click here to continue"
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "193.2"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "162.37",
+        "text": "Click to continue"
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "162.37"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "229.1",
+        "text": "Click here to continue"
+      }
+    ],
+    "action": [
+      {
+        "type": "CONTINUE",
+        "priority": 0,
+        "id": "-1"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Catch some Shrimp."
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3317",
+        "text": "Net"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Cooking your shrimp."
+      },
+      {
+        "type": "item",
+        "id": "2514",
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3317",
+        "text": "Net"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Cooking your shrimp."
+      },
+      {
+        "type": "item",
+        "id": "2514",
+        "min": 2,
+        "max": 10
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.51"
+      },
+      {
+        "type": "useIO",
+        "priority": 0,
+        "id": "2514",
+        "id2": "26185"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Burning your shrimp."
+      }
+    ],
+    "action": [
+      {
+        "type": "useIO",
+        "priority": 0,
+        "id": "2514",
+        "id2": "26185"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Well done, you've just cooked your first RuneScape meal."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3091, 3092, 0]]
+      },
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9708",
+        "text": "Open",
+        "bounds": [96, 144, -88, 0, -128, 116]
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Find your next instructor."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 2,
+        "path": [[3080, 3084, 0]]
+      },
+      {
+        "type": "object",
+        "priority": 1,
+        "id": "9709",
+        "text": "Open"
+      },
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3305",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Making dough."
+      }
+    ],
+    "action": [
+      {
+        "type": "useII",
+        "priority": 0,
+        "id": "2516",
+        "id2": "1929"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Cooking dough."
+      }
+    ],
+    "action": [
+      {
+        "type": "useIO",
+        "priority": 0,
+        "id": "2307",
+        "id2": "9736"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "WRONG"
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.44"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "The music player."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3074, 3090, 0]]
+      },
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9710",
+        "text": "Open",
+        "bounds": [104, 144, -220, 0, 4, 120]
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Emotes."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.36"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "Emotes."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "216.1.0"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Running."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 1,
+        "id": "548.35"
+      },
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "160.27"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "Run to the next guide."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 0,
+        "path": [
+          [3071, 3089, 0],
+          [3071, 3092, 0],
+          [3072, 3096, 0],
+          [3071, 3099, 0],
+          [3072, 3109, 0],
+          [3073, 3115, 0],
+          [3075, 3121, 0],
+          [3078, 3125, 0],
+          [3082, 3127, 0],
+          [3086, 3127, 0]
+        ]
+      },
+      {
+        "type": "object",
+        "priority": 1,
+        "id": "9716",
+        "text": "Open",
+        "bounds": [-12, 112, -232, 0, 4, 20]
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "The music player."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "id": "3086,3126"
+      },
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9716",
+        "text": "Open"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.1",
+        "text": "Talk with the Quest Guide."
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3312",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.1",
+        "text": "Open the Quest Journal."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.50"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Your Quest Journal."
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3312",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.1",
+        "text": "Moving on."
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9726",
+        "text": "Climb-down"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Mining and Smithing."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3083, 9507, 0]]
+      },
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3311",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Prospecting."
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "10080",
+        "text": "Prospect"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "It's tin."
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "10079",
+        "text": "Prospect"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "It's copper."
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3311",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.1",
+        "text": "Now you have some tin ore you just need some copper ore,"
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "10079",
+        "text": "Mine"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Mining."
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "10080",
+        "text": "Mine"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Smelting."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3079, 9498, 0]]
+      },
+      {
+        "type": "useIO",
+        "priority": 0,
+        "id": "438",
+        "id2": "10082",
+        "bounds": [-156, 32, -168, 0, -124, 8]
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "You've made a bronze bar!"
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3080, 9505, 0]]
+      },
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3311",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Smithing a dagger."
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 2,
+        "id": "2097",
+        "text": "Smith"
+      },
+      {
+        "type": "wait",
+        "priority": 1
+      },
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "312.2"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "You've finished in this area."
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9717",
+        "text": "Open",
+        "bounds": [96, 180, -64, 20, -132, 108]
+      },
+      {
+        "type": "walk",
+        "priority": 0,
+        "path": [[3090, 9502, 0]]
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Combat."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3106, 9509, 0]]
+      },
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3307",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Wielding weapons."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.59"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "This is your worn inventory."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "387.18"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Worn interface"
+      }
+    ],
+    "action": [
+      {
+        "type": "item",
+        "priority": 0,
+        "id": "1205",
+        "text": "Equip"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "You're now holding your dagger."
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3307",
+        "text": "Talk-to"
+      },
+      {
+        "type": "widget",
+        "priority": 1,
+        "id": "84.4"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "Unequipping items."
+      }
+    ],
+    "action": [
+      {
+        "type": "item",
+        "priority": 0,
+        "id": "1277",
+        "text": "Wield"
+      },
+      {
+        "type": "item",
+        "priority": 1,
+        "id": "1171",
+        "text": "Wield"
+      },
+      {
+        "type": "widget",
+        "priority": 2,
+        "id": "548.51"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Combat interface."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.55"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "This is your combat interface."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3112, 9518, 0]]
+      },
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9719",
+        "text": "Open"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Attacking."
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3313",
+        "text": "Attack"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Sit back and watch."
+      }
+    ],
+    "action": [
+      {
+        "type": "wait",
+        "priority": 0,
+        "id": "5000"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Well done, you've made your first kill!"
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 2,
+        "id": "9719",
+        "text": "Open"
+      },
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3106, 9509, 0]]
+      },
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3307",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Rat ranging."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 3,
+        "id": "548.58"
+      },
+      {
+        "type": "item",
+        "priority": 2,
+        "id": "882",
+        "text": "Wield"
+      },
+      {
+        "type": "item",
+        "priority": 1,
+        "id": "841",
+        "text": "Wield"
+      },
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3313",
+        "text": "Attack"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Moving on."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3111, 9524, 0]]
+      },
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9727",
+        "text": "Climb-up"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Banking."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 1,
+        "path": [[3122, 3123, 0]]
+      },
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "10083",
+        "text": "Use"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "219.0.1",
+        "text": "Yes."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "219.0.1"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "This is your bank box."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 1,
+        "id": "12.14.11"
+      },
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "26801",
+        "text": "Use"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "This is a poll booth."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 1,
+        "id": "345.2.11"
+      },
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9721",
+        "text": "Open"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Financial advice."
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3310",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.2",
+        "text": "Continue through the next door."
+      }
+    ],
+    "action": [
+      {
+        "type": "object",
+        "priority": 0,
+        "id": "9722",
+        "text": "Open"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Prayer."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 2,
+        "path": [
+          [3133, 3122, 0],
+          [3133, 3116, 0],
+          [3131, 3111, 0],
+          [3128, 3106, 0]
+        ]
+      },
+      {
+        "type": "object",
+        "priority": 1,
+        "id": "1524",
+        "text": "Open"
+      },
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3319",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Your Prayer menu."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.53"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.1",
+        "text": "Your Prayer menu."
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3319",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.1",
+        "text": "Friends list."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.32"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "This is your friends list."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.33"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "This is your ignore list."
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3319",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.1",
+        "text": "Your final instructor!"
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 0,
+        "path": [[3122, 3104, 0]]
+      },
+      {
+        "type": "object",
+        "priority": 1,
+        "id": "9723",
+        "text": "Open"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Your final instructor!"
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 0,
+        "path": [
+          [3122, 3100, 0],
+          [3126, 3095, 0],
+          [3130, 3092, 0],
+          [3134, 3088, 0],
+          [3138, 3087, 0],
+          [3142, 3087, 0]
+        ]
+      },
+      {
+        "type": "npc",
+        "priority": 1,
+        "id": "3309",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "Open up your final menu."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "548.54"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "421.1",
+        "text": "Cast Wind Strike at a chicken."
+      }
+    ],
+    "action": [
+      {
+        "type": "walk",
+        "priority": 2,
+        "path": [[3140, 3090, 0]]
+      },
+      {
+        "type": "widget",
+        "priority": 1,
+        "id": "218.2"
+      },
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3316",
+        "text": "Cast"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "372.0",
+        "text": "You have almost completed the tutorial!"
+      }
+    ],
+    "action": [
+      {
+        "type": "npc",
+        "priority": 0,
+        "id": "3309",
+        "text": "Talk-to"
+      }
+    ]
+  },
+  {
+    "state": [
+      {
+        "type": "widget",
+        "id": "219.0.2",
+        "text": "No, I'm not planning to do that."
+      }
+    ],
+    "action": [
+      {
+        "type": "widget",
+        "priority": 0,
+        "id": "219.0.2"
+      }
+    ]
   }
 ]

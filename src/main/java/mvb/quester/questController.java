@@ -22,7 +22,7 @@ public class questController extends PollingScript<ClientContext> {
 
     JsonState[] states;
     Gson g;
-    final String EXTERNALJSON = "http://pastebin.com/raw/B4CnCF9t";
+    final String EXTERNALJSON = "http://pastebin.com/raw/0MpLZ82e";
     int nullCounter;
     Random r;
 

@@ -132,7 +132,7 @@ public class questController extends PollingScript<ClientContext> {
         while (p.valid() && ctx.movement.reachable(p.next(), ctx.players.local())){
             p.traverse();
             Condition.sleep(300);
-            if (ctx.players.local().animation() == -1 && !p.traverse()){
+        if (ctx.players.local().animation() == -1 && !p.traverse()){
                 return true;
             }
         }
